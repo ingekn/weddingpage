@@ -1,0 +1,327 @@
+:root {
+  --branding-color: #e57474;
+  --2nd-color: #fff0f0;
+  --3rd-color: #8f7357;
+  --4th-color: #ad8787;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Roboto", sans-serif;
+  --alt-font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--4th-color);
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../src/images/masks.jpg);
+  /* background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../src/images/catshorizontal.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family);
+  margin-top: 120px;
+}
+header h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a,
+main a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: var(--default-font-family);
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--branding-color);
+  padding: 16px 32px;
+  border-radius: 100px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+header a:hover,
+main a:hover {
+}
+.grid {
+  display: grid;
+}
+.two-columns-grid {
+  grid-template-columns: 1fr 1fr;
+}
+.footer-grid {
+  grid-template-columns: 1fr 2fr 2fr;
+  margin-right: 20px;
+}
+
+main img {
+  margin: 0 auto;
+  filter: brightness(85%);
+}
+main h3 {
+  color: var(--3rd-color);
+  font-family: var(--alt-font-family);
+  font-size: 13px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main h2 {
+  color: var(--3rd-color);
+  font-family: var(--alt-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.introduction p {
+  font-family: var(--default-font-family);
+  color: black;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 25px;
+}
+.introduction {
+  margin: 150px 100px 20px 100px;
+}
+main {
+  background-color: var(--2nd-color);
+}
+.alt-picture {
+  display: none;
+}
+main a {
+  display: inline-flex;
+  margin-top: 20px;
+}
+.podcasts h3,
+.podcasts h2,
+.meditation h3,
+.meditation h2 {
+  text-align: center;
+}
+.podcasts h3,
+.meditation h3 {
+  padding-top: 60px;
+}
+.podcasts {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/woman_nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.three-columns-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.spotify-podcast,
+.video {
+  aspect-ratio: 21 / 14;
+  width: 100%;
+  height: auto;
+}
+
+.podcast {
+  margin: 50px 30px;
+  background-color: #ffffff;
+  font-family: var(--default-font-family);
+  border-radius: 12px;
+  max-width: 392px;
+}
+.podcast-info {
+  margin: 30px 30px;
+  color: #272044;
+}
+.podcast h4 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+.podcast p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: left;
+  color: #272044;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+.podcast a {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  text-align: center;
+}
+.first-row {
+  padding: 50px 30px 20px 30px;
+}
+.second-row {
+  padding: 20px 30px 80px 30px;
+}
+footer {
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../images/conscious.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 90px 40px 90px;
+}
+
+footer h3 {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+}
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 24px;
+  font-family: var(--alt-font-family);
+}
+footer a {
+  color: #ffffff;
+  opacity: 0.6;
+  font-family: var(--alt-font-family);
+  font-size: 14px;
+}
+.code a {
+  color: #30ee29;
+  opacity: 0.9;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer li {
+  padding: 5px 0;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+    line-height: 1;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 13px;
+  }
+  header a,
+  main a {
+    padding: 8px 16px;
+    font-size: 11px;
+  }
+  main h2 {
+    font-size: 30px;
+  }
+  main p {
+    font-size: 14px;
+  }
+  .introduction {
+    margin: 100px 20px 0px 20px;
+  }
+  .three-columns-grid {
+    padding: 30px 10px;
+  }
+  .podcast,
+  .meditation-video {
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 20px 4px 20px 40px;
+  }
+  footer p {
+    font-size: 11px;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 880px) {
+  .two-columns-grid,
+  .three-columns-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .three-columns-grid {
+    margin: 0px 20px;
+  }
+  main img {
+    display: none;
+  }
+  .podcasts {
+    background-image: none;
+  }
+  .alt-picture {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .introduction {
+    margin: 30px 10px 0px 10px;
+  }
+}
+@media (max-width: 400px) {
+  header {
+    padding: 50px 0;
+    line-height: 1;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  header h2 {
+    font-size: 12px;
+  }
+  header h3 {
+    font-size: 10px;
+  }
+  main p {
+    font-size: 12px;
+  }
+}
