@@ -264,7 +264,6 @@ footer li {
     padding: 70px 60px 100px 100px;
   }
 }
-
 @media (max-width: 950px) {
   .container {
     max-width: 850px;
@@ -317,6 +316,114 @@ footer li {
   text-align: center;
   font-size: 12px;
 }
+
+/* .two-columns-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .responsiveness-remove-picture {
+    display: none;
+  }
+  .responsiveness-insert-picture {
+    display: block; */
+/* position: relative;
+    top: -80px;
+    left: 400px; */
+/* } */
+/* 
+@media (max-width: 850px) {
+  .container {
+    max-width: 600px;
+  }
+  .intro .two-columns-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+  .responsiveness-remove-picture {
+    display: none;
+  }
+  .responsiveness-insert-picture {
+    display: block;
+  }
+  .two-columns-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+  header h1 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  header h2 {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  header a {
+    display: none;
+  }
+  main h2 {
+    font-size: 18px;
+  }
+  .introduction h2 {
+    margin-bottom: 25px;
+  }
+  .introduction p {
+    font-size: 11px;
+    margin-top: 13px;
+  }
+  .introduction a {
+    font-size: 11px;
+    margin: 20px 20px 20px 45px;
+  }
+  .introduction {
+    margin: 40px 40px 30px 40px;
+  }
+  .directions h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0px 30px 0px;
+    text-align: left;
+  }
+  .directions {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .directions-text {
+    padding: 20px 20px 20px 30px;
+    max-width: 450px;
+  }
+  .accomodation a {
+    margin-left: 50px;
+    font-size: 14px;
+  }
+  iframe {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    width: 200px;
+    height: 100px;
+  }
+  footer {
+    padding: 70px 60px 50px 50px;
+  }
+  footer a {
+    font-size: 10px;
+  }
+  footer li {
+    padding: 0;
+  }
+  footer h3 {
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 8px;
+  }
+  .accomodation a {
+    display: none;
+  }
+} */
+
+/* mobile responsiveness */
 
 @media (max-width: 453px) {
   .two-columns-grid,
