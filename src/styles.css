@@ -51,7 +51,8 @@ header h2 {
   letter-spacing: 5px;
 }
 header a,
-.introduction a {
+.introduction a,
+.accomodation a {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
@@ -66,14 +67,19 @@ header a,
   margin-bottom: 20px;
   transition: all 100ms ease-in-out;
 }
-.introduction a {
+.introduction a,
+.accomodation a {
   background-color: #c77a7a;
 }
 
 header a:hover,
-.introduction a:hover {
+.introduction a:hover,
+.accomodation a:hover {
   color: white;
   background-color: #872a2a;
+}
+.accomodation a {
+  margin-top: 40px;
 }
 .grid {
   display: grid;
@@ -173,7 +179,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 40px 90px 40px 90px;
+  padding: 110px 80px 110px 120px;
 }
 
 footer h3 {
@@ -182,7 +188,7 @@ footer h3 {
   font-family: var(--heading-font-family);
 }
 footer p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   font-family: var(--alt-font-family);
@@ -191,7 +197,7 @@ footer a {
   color: #ffffff;
   opacity: 0.9;
   font-family: var(--alt-font-family);
-  font-size: 14px;
+  font-size: 15px;
 }
 footer ul {
   list-style: none;
@@ -246,22 +252,9 @@ footer li {
   .footer-grid {
     grid-template-columns: 1fr;
   }
-  .three-columns-grid {
-    margin: 0px 20px;
-  }
-  main img {
-    display: none;
-  }
-  .podcasts {
-    background-image: none;
-  }
-  .alt-picture {
-    display: block;
-    margin-bottom: 20px;
-  }
-  .introduction {
+  /* .introduction {
     margin: 30px 10px 0px 10px;
-  }
+  } */
 }
 @media (max-width: 400px) {
   header {
