@@ -161,8 +161,10 @@ main a {
   font-weight: 600;
   opacity: 0.9;
 }
-.church-address {
+
+.church-address a {
   text-decoration: underline;
+  color: rgb(100, 96, 96);
 }
 .station a {
   text-decoration: underline;
