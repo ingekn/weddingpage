@@ -165,6 +165,7 @@ main a {
 .church-address a {
   text-decoration: underline;
   color: rgb(100, 96, 96);
+  margin: 0;
 }
 .station a {
   text-decoration: underline;
